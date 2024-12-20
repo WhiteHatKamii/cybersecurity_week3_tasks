@@ -58,7 +58,7 @@ sudo systemctl restart logstash
 ```
 
 #### Deliverables:
-- **Screenshots**: Kibana dashboard showing suspicious login attempts and traffic anomalies.
+-  Kibana dashboard showed suspicious login attempts and traffic anomalies.
 - **Report**:
   - Identified 100+ failed SSH login attempts.
   - Unusual network traffic spike detected on port 8080, potentially indicating unauthorized scanning.
@@ -83,7 +83,7 @@ nmap -p 22,80 localhost
 ```
 
 #### Deliverables:
-- **Screenshots**: UFW configuration and nmap output.
+-  UFW configuration and nmap output.
 - **Report**:
   - Rule allowing SSH only ensures secure administrative access.
   - Denying HTTP prevents unauthorized HTTP access.
@@ -116,7 +116,7 @@ http://localhost/dvwa/setup.php
 ```
 
 #### Deliverables:
-- **Screenshots**: Successful SQL Injection and XSS exploitation.
+ -  Successful SQL Injection and XSS exploitation.
 - **Report**:
   - Vulnerabilities found: SQL Injection and XSS.
   - Recommendations: Input validation, parameterized queries, and sanitizing user inputs.
@@ -139,7 +139,7 @@ strings malware_sample.exe > output.txt
 ```
 
 #### Deliverables:
-- **Screenshots**: Remnux installation, `strings` output, and Wireshark traffic.
+- **Remnux**: Remnux installation, `strings` output, and Wireshark traffic.
 - **Report**:
   - Malware attempts to connect to malicious domains.
   - Recommendations: Block domains, monitor registry changes, and use AV solutions.
@@ -186,7 +186,7 @@ def connect_to_db():
 │   ├── logstash.conf
 ├── scripts/
 │   ├── secure_script.py
-├── screenshots/
+├── Outputs/
 │   ├── kibana_dashboard.png
 │   ├── ufw_status.png
 │   ├── nmap_output.png
@@ -214,10 +214,8 @@ cd week3-cybersecurity-tasks
 ### Setup and Configuration
 Follow the steps documented in each task folder (`/configurations` or `/scripts`) to reproduce the setups and configurations.
 
-### Review Reports
-Reports summarizing findings, methods, and recommendations are available in the `reports/` directory.
 
 ---
 
 ## Contact
-For any questions or clarifications, please contact me at [your_email@example.com].
+For any questions or clarifications, please contact me at kb043009@gmail.com.
